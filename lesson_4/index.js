@@ -15,3 +15,12 @@
 //$("li:hidden").css("border", "1px solid blue"); // Скрытые элементы
 //$("li:visible").css("border", "1px solid blue"); // Видимые элементы
 //$("li:lang(ru)").css("border", "1px solid blue"); // Фильтрация по языку
+
+// Найти первый элемент li из списка ul
+//$("ul li:first").css("border", "1px solid blue");
+// Найти последний элемент из списка ul
+//$("ul li:last").css("border", "1px solid blue");
+// Найти все четные li из списка ul
+//$("ul li:even").css("border", "1px solid blue");
+// Найти элемент из списка, чей порядковый номер больше 3 и задать ему красный фон
+//$("ul li:gt(2)").css("background-color", "red");
