@@ -16,3 +16,10 @@
 //$("input:checked").css("display", "block"); // Выбранный чекбокс или радио-кнопка
 //$("input:enabled").css("border", "1px solid blue"); // Доступное поле
 //$("input:disabled").css("border", "1px solid blue"); // Недоступное поле
+
+//Найти все элементы формы с классом from-control
+//$("input.form-control").css("border", "1px solid blue");
+//Найти кнопки на странице и выделить их красной рамкой и желтым фоном
+//$("input:button").css({ border: "1px solid red", background: "yellow" });
+//Найти все radio-элементы из одной группы (где gender это значение атрибута name у искомой группы переключателей)
+//$("input:radio[name='gender']").css("display", "block");
