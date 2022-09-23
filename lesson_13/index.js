@@ -31,6 +31,26 @@
 //     });
 // }); // Красивое появляение окна
 
+// $(document).ready(function () {
+//     var modal = $(".popup"),
+//         overlay = $(".overlay"),
+//         link = $('button[data-popup="true"]'),
+//         close = $(".close-btn"),
+//         fruitName = $(".fruit-name");
+//     link.on("click", function () {
+//         fruitName.text($(this).attr("data-fruit"));
+//         overlay.show();
+//         modal.toggleClass("popup_active");
+//     });
+
+//     close.click(function () {
+//         overlay.hide();
+//         modal.toggleClass("popup_active");
+//     });
+// });
+// Много кнопок - одно окно
+
+//Создайте ПОЛНОЭКРАННОЕ всплывающее окно, которые выезжает справа.
 $(document).ready(function () {
     var modal = $(".popup"),
         overlay = $(".overlay"),
@@ -48,4 +68,3 @@ $(document).ready(function () {
         modal.toggleClass("popup_active");
     });
 });
-// Много кнопок - одно окно
