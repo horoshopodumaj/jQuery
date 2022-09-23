@@ -71,4 +71,11 @@ $(function () {
             $(`.slide-nav:eq(${slideNow - 1})`).toggleClass("active");
         }
     }
+
+    $(this).keydown(function (event) {
+        if (event.which === 39) {
+            nextSlide();
+        }
+        if (event.which === 37) prevSlide();
+    });
 });
